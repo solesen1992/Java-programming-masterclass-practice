@@ -19,7 +19,11 @@ package fundamentals;
 
 
 public class PositiveNegativeZero {
-    // write code here
+	
+	public static void main(String[] args) {
+		// Test the method
+		checkNumber(15);
+	}
     
     public static void checkNumber(int number) {
         if (number > 0) {

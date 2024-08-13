@@ -5,7 +5,11 @@ package fundamentals;
  * */
 
 public class SpeedConverter {
-    // write code here
+	
+	public static void main(String[] args) {
+		// Test method
+		printConversion(150);	
+	}
     
     public static long toMilesPerHour (double kilometersPerHour) {
         if (kilometersPerHour < 0) {
